@@ -8,5 +8,6 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
-  - init: mysql -u root < data/sakila-schema.sql && mysql -u root < data/sakila-data.sql # runs during prebuild
+  - init: mysql -u root < data/sakila-schema.sql && mysql -u root < data/sakila-data.sql # runs during prebuild\
+
 
