@@ -1,13 +1,14 @@
-FROM gitpod/workspace-mysql
+# using the gitpod sql workspace
+FROM gitpod/workspace-sql
 
-USER gitpod
+# flex on em
+USER sdcs-guest
 
-# Install custom tools, runtime, etc. using apt-get
-# For example, the command below would install "bastet" - a command line tetris clone:
-#
-# RUN sudo apt-get -q update && \
-#     sudo apt-get install -yq bastet && \
-#     sudo rm -rf /var/lib/apt/lists/*
-#
-# More information: https://www.gitpod.io/docs/42_config_docker/
+# run db and table creation script
+RUN mysql -u root < data/sakila-schema.sql
 
+# run data insertion
+RUN mysql -u root < data/sakila-data.sql
+
+# load up that sweet sweet executeable
+ENTRYPOINT["mysql"]
