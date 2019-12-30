@@ -11,4 +11,4 @@ RUN mysql -u root < data/sakila-schema.sql
 RUN mysql -u root < data/sakila-data.sql
 
 # load up that sweet sweet executeable
-ENTRYPOINT["mysql"]
+ENTRYPOINT ["mysql"]
