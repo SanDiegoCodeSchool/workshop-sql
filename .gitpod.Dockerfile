@@ -1,8 +1,8 @@
 # using the gitpod sql workspace
-FROM gitpod/workspace-sql
+FROM gitpod/workspace-mysql
 
 # flex on em
-USER sdcs-guest
+USER gitpod
 
 # run db and table creation script
 RUN mysql -u root < data/sakila-schema.sql
