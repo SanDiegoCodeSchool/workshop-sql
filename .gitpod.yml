@@ -1,13 +1,12 @@
+# using default gitpod mysql workspace
 image:
   file: .gitpod.Dockerfile
 
-# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/43_config_ports/
+# exposing 3000 JIC
 ports:
   - port: 3000
     onOpen: open-preview
 
-# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
+# load in workshop specific data on workspace init
 tasks:
-  - init: mysql -u root < data/sakila-schema.sql && mysql -u root < data/sakila-data.sql # runs during prebuild\
-
-
+  - init: mysql -u root < data/sakila-schema.sql && mysql -u root < data/sakila-data.sql
