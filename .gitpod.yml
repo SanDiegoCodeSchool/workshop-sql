@@ -9,4 +9,4 @@ ports:
 
 # load in workshop specific data on workspace init
 tasks:
-  - init: mysql -u root < data/sakila-schema.sql && mysql -u root < data/sakila-data.sql
+  - init: mysql -u root < data/sakila-schema.sql && mysql -u root < data/sakila-data.sql && clear && mysql -u root
