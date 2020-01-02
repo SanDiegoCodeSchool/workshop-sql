@@ -1,7 +1,5 @@
 # using the gitpod sql workspace
 FROM gitpod/workspace-mysql
 
-# flex on em
+# as is tradition
 USER gitpod
-
-COPY data data
