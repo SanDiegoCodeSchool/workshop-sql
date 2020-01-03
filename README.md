@@ -3,7 +3,7 @@
 
 
 ## Overview
-Many of the things that we do on our computer involve some sort of data stored somewhere in a database. Whether you are a Software Engineer, Aspiring Data Scientist, or simply a DIY computer enthusiast, learning how to interact with data is a fantastic foundational skill that will make you a more well rounded computer user and add value to your resume. There are several languages and tools that can help you accomplish this and we will focus on the most popular, SQL (Structured Query Language). Mastering SQL can take a lifetime, so our hope with today’s workshop is to give you a foundational understanding of querying existing data so that you can continue to practice and learn on your own. 
+Many of the things that we do on our computer involve some sort of data stored somewhere in a database. Whether you are a Software Engineer, Aspiring Data Scientist, or simply a DIY computer enthusiast, learning how to interact with data is a fantastic foundational skill that will make you a more well rounded computer user and add value to your resume. There are several languages and tools that can help you accomplish this and this workshop will focus on the most popular, SQL (Structured Query Language). Mastering SQL can take a lifetime, so our hope with today’s workshop is to give you a foundational understanding of querying existing data so that you can continue to practice and learn on your own. 
 
 
 
@@ -41,12 +41,12 @@ mysql -u root < data/sakila-data.sql
 ## Independent Exercises 
 
 #### Section 1
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Select all of the records from the film list table.
+2. Select the ___ column from the ___ table.
+3. Select columns ___, ___, and ___ from the ___ table.
+4. Select the records in the ___ table that have _____ condition.
+5. Select the first 5 records from the ___ table.
+6. Select the records from the blank table, sorted by ____ in ascending order. 
 7. 
 8. 
 9. 
@@ -59,7 +59,7 @@ Challenge Questions:
 4. 
 5. 
 
-#### Section 1
+#### Section 2
 1. 
 2. 
 3. 
@@ -81,11 +81,20 @@ Challenge Questions:
 
 ## Additional Resources
 
-1. 
-2. 
-3. 
+1. [W3 Schools: Reference/Continued Learning](https://www.w3schools.com/sql/)
+2. [Team Treehouse: Reference/Continued Learning PAID](https://www.teamtreehouse.com)
+2. [HackerRank: Practice Problems/Challenges](https://www.hackerrank.com)
+3. [CodeWars: Practice Problems/Challenges](https://www.codewars.com)
 
 ## Sources
-1. Test
-2. test
-3. test
+
+https://training-nyc.com/learn/sql/the-many-flavors-of-sql-a-guide-to-relational-databases
+
+https://www.loginradius.com/engineering/relational-database-management-system-rdbms-vs-nosql/
+
+https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/
+
+https://www.w3schools.com/sql/sql_intro.asp
+
+https://db-engines.com/en/ranking
+
