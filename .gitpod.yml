@@ -2,10 +2,10 @@
 image:
   file: .gitpod.Dockerfile
 
-# exposing 3000 JIC
-ports:
-  - port: 3000
-    onOpen: open-preview
+# # exposing 3000 JIC
+# ports:
+#   - port: 3000
+#     onOpen: open-preview
 
 # load in workshop specific data on workspace init
 tasks:

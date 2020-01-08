@@ -40,43 +40,31 @@ mysql -u root < data/sakila-data.sql
 
 ## Independent Exercises 
 
-#### Section 1
+#### Section 1 - Basic Queries with Core Keywords
 1. Select all of the records from the film list table.
 2. Select the ___ column from the ___ table.
 3. Select columns ___, ___, and ___ from the ___ table.
 4. Select the records in the ___ table that have _____ condition.
 5. Select the first 5 records from the ___ table.
 6. Select the records from the blank table, sorted by ____ in ascending order. 
-7. 
-8. 
-9. 
-10. 
+
+"Real World" Challenge Questions:
+1. How many ___ have ____. 
+2. Name a ___ that ___.
+3. What are the 3 most recent ____?
+
+#### Section 2 - Grouping, Aggregation, and Joins
+1. 
+2. 
+3. 
+4. 
+5. 
 
 Challenge Questions:
 1. 
 2. 
 3. 
-4. 
-5. 
 
-#### Section 2
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-
-Challenge Questions:
-1. 
-2. 
-3. 
-4. 
-5. 
 
 
 ## Additional Resources
