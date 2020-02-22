@@ -1,7 +1,5 @@
 # SQL Workshop
 
-
-
 ## Overview
 Many of the things that we do on our computer involve some sort of data stored somewhere in a database. Whether you are a Software Engineer, Aspiring Data Scientist, or simply a DIY computer enthusiast, learning how to interact with data is a fantastic foundational skill that will make you a more well rounded computer user and add value to your resume. There are several languages and tools that can help you accomplish this and this workshop will focus on the most popular, SQL (Structured Query Language). Mastering SQL can take a lifetime, so our hope with today’s workshop is to give you a foundational understanding of querying existing data so that you can continue to practice and learn on your own. 
 
