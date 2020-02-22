@@ -36,37 +36,6 @@ mysql -u root < data/sakila-schema.sql
 mysql -u root < data/sakila-data.sql
  ```
 
-
-
-## Independent Exercises 
-
-#### Section 1 - Basic Queries with Core Keywords
-1. Select all of the records from the film list table.
-2. Select the ___ column from the ___ table.
-3. Select columns ___, ___, and ___ from the ___ table.
-4. Select the records in the ___ table that have _____ condition.
-5. Select the first 5 records from the ___ table.
-6. Select the records from the blank table, sorted by ____ in ascending order. 
-
-"Real World" Challenge Questions:
-1. How many ___ have ____. 
-2. Name a ___ that ___.
-3. What are the 3 most recent ____?
-
-#### Section 2 - Grouping, Aggregation, and Joins
-1. 
-2. 
-3. 
-4. 
-5. 
-
-Challenge Questions:
-1. 
-2. 
-3. 
-
-
-
 ## Additional Resources
 
 1. [W3 Schools: Reference/Continued Learning](https://www.w3schools.com/sql/)
